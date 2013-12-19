@@ -109,6 +109,8 @@ def parse(filename):
     print "    )"
     print "  %s" % (")" * level)
     print ")"
+    print ""
+    print "(check-sat)"
     return 0
 
 def main(argv):
